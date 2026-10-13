@@ -1,8 +1,8 @@
 # Hermes
 
-**Control your desktop dev environment from your phone.**
+**Your Dev Environment, In Your Pocket.**
 
-Hermes is a remote developer tool that lets you run AI coding tasks, monitor terminals, browse files, and manage your Jira/GitHub workflow — all from a React Native mobile app connected to your Mac over LAN or a secure WebSocket relay.
+Hermes is a remote development toolkit that links your phone and desktop so you can manage coding work from anywhere. End-to-end encrypted over LAN or relay.
 
 ---
 
@@ -30,9 +30,9 @@ Hermes is a remote developer tool that lets you run AI coding tasks, monitor ter
 
 | CLI | Notes |
 |-----|-------|
-| Claude (Anthropic) | Primary; full plan/implement/audit pipeline |
-| Codex (OpenAI) | Supported via multi-CLI toolbox |
-| Gemini (Google) | Supported via multi-CLI toolbox |
+| Claude (Anthropic) | Primary; full plan/implement/audit pipeline, Kanban conveyor, spec-check |
+| Codex (OpenAI) | Task queue only — autonomous code generation and editing; conveyor pipeline not supported |
+| Gemini (Google) | Task queue only — code generation, analysis, and review; conveyor pipeline not supported |
 
 Model and reasoning-effort preferences are synced to your phone in real time.
 
@@ -54,7 +54,7 @@ All releases → [Releases page](https://github.com/alexandruseverin/hermes-rele
 
 ## More
 
-- Website & docs — coming soon
+- Website & docs — [gethermesapp.com](https://gethermesapp.com/)
 - Issues & feedback — open an issue in this repository
 
 ---
